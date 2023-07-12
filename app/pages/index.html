@@ -1,0 +1,29 @@
+<h1 class="text2 mb0">Custom element</h1>
+<enhance-image
+  src='/_public/pupper.jpg'
+  width='5000'
+  height='6250'
+></enhance-image>
+
+<h1 class="text2 mb0">Custom element in a container</h1>
+<div style='width: 100px;' class='mbe0'>
+  <enhance-image
+    src='/_public/pupper.jpg'
+    sizes='100px'
+    width='5000'
+    height='6250'
+  ></enhance-image>
+</div>
+
+<h1 class="text2 mb0">Responsive image</h1>
+<img
+  srcset='/transform/width_2000/_public/pupper.jpg 2000w,
+    /transform/width_1000/_public/pupper.jpg 1000w,
+    /transform/width_500/_public/pupper.jpg 500w'
+  sizes='100vw'
+  src='/_public/pupper.jpg'
+  alt=''
+/>
+
+<h1 class="text2 mb0">Standard image</h1>
+<img src='/_public/pupper.jpg' alt='' />
